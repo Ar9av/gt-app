@@ -2,7 +2,6 @@ import os
 from openai import AzureOpenAI, OpenAI
 import streamlit as st
 from streamlit.runtime.scriptrunner import get_script_run_ctx
-os.environ['OPENAI_API_KEY'] = os.environ('OPENAI_API_KEY')
 # Utility function to ensure the logs directory exists
 def ensure_log_directory_exists():
     if not os.path.exists('logs'):
