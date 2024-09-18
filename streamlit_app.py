@@ -38,13 +38,9 @@ if prompt := st.chat_input():
     #    st.stop()
 
     #openai_api_key = st.session_state.get("openai_api_key")
-    #client = OpenAI(api_key=openai_api_key)
-    client = AzureOpenAI(
-            azure_endpoint='https://piq-openai.openai.azure.com/',
-            api_version="2024-02-01",
-            api_key='fc8c7d43385c44ba85eabf16ffc1820f'
-        )
-    st.session_state.messages.append({"role": "user", "content": prompt})
+    client = OpenAI(api_key=os.environ('OPENAI_API_KEY'))
+
+    # st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
     with open('txt.txt', 'r') as f:
         assistant_msg = f.read()
