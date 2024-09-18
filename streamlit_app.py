@@ -37,13 +37,13 @@ if prompt := st.chat_input():
     #    st.stop()
 
     #openai_api_key = st.session_state.get("openai_api_key")
-    client = OpenAI(api_key=os.environ('OPENAI_API_KEY'))
+    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
-    # st.session_state.messages.append({"role": "user", "content": prompt})
+    st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
     with open('txt.txt', 'r') as f:
         assistant_msg = f.read()
-    response = client.chat.completions.create(model="piq-gpt", messages=[{"role": "user", "content": f'Answer using following context only: ```{assistant_msg}```'}] + st.session_state.messages)
+    response = client.chat.completions.create(model="gpt-4o-mini", messages=[{"role": "system", "content": f'Answer using following context only: ```{assistant_msg}```'}] +  st.session_state.messages)
     msg = response.choices[0].message.content
     st.session_state.messages.append({"role": "assistant", "content": msg})
     st.chat_message("assistant").write(msg)
