@@ -1,0 +1,132 @@
+{
+    "Income Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form with signature and seal of Talati",
+            "Income statement from Talati/Chief Officer (For government employees, certificate from their office head)",
+            "Copy of ration card",
+            "Copy of Aadhar card/Election card",
+            "Light bill/house tax receipt"
+        ]
+    },
+    "Socially and Educationally Backward Class Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form with signature and seal of Talati",
+            "Copy of school leaving certificate",
+            "Copy of school leaving certificate of one of the applicant's father, brother, or sister/caste certificate",
+            "Copy of ration card",
+            "Copy of Aadhar card/Election card",
+            "Affidavit (Annexure-4/34)"
+        ]
+    },
+    "Age Verification Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form with signature and seal of Talati",
+            "Copy of school leaving certificate",
+            "Copy of ration card",
+            "Copy of Aadhar card/Election card",
+            "Evidence of education from 1st to 10th standard",
+            "A letter from the police station indicating no involvement in any crime",
+            "Talati's document (residence proof)",
+            "Affidavit (Annexure-4/37)"
+        ]
+    },
+    "Senior Citizen Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form",
+            "Copy of school leaving certificate",
+            "Copy of ration card",
+            "Copy of Aadhar card/Election card",
+            "Proof of age"
+        ]
+    },
+    "Character Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Application on plain paper",
+            "Copy of school leaving certificate",
+            "Police verification document",
+            "Letter from MLA/Corporator regarding good conduct",
+            "Ration card",
+            "Aadhar card",
+            "Election card",
+            "Affidavit with stamp of \u20b950",
+            "1 Photograph"
+        ]
+    },
+    "Widow Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Application (Annexure-1/45 as per)",
+            "Applicant's Talati response (Annexure 2/45 as per)",
+            "Panchanama (Annexure 3/45 as per)",
+            "Affidavit (Annexure 4/45 as per)",
+            "Proof of residence (Telephone bill / Light bill / Municipal tax bill, any one)",
+            "Death certificate (Municipal Corporation/Talati)",
+            "Copy of ration card",
+            "Proof of age (School Leaving Certificate / Civil Surgeon document, municipal or Talati)",
+            "Proof of income"
+        ]
+    },
+    "Non-Criminal Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form with signature and seal of Talati",
+            "Copy of school leaving certificate",
+            "Copy of ration card",
+            "Copy of Aadhar card/Election card",
+            "Income proof from competent authority (for government employees, income & designation certificate from their office head, for business professionals, if applicable, last 3 years' IT returns)",
+            "Proof of gender",
+            "Affidavit",
+            "7/12/8A (If no land, talati's document stating no land)",
+            "Last 3 years' income statement from Talati"
+        ]
+    },
+    "Nomadic Exempt Caste Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form",
+            "Copy of school leaving certificate",
+            "Copy of school leaving certificate of one of the applicant's father/uncles",
+            "Copy of ration card",
+            "Copy of Aadhar card/Election card"
+        ]
+    },
+    "Caste Certificate (S.C.)": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form",
+            "Copy of school leaving certificate",
+            "Copy of school leaving certificate of one of the applicant's father/uncles",
+            "Affidavit if the applicant is illiterate",
+            "Copy of ration card",
+            "Copy of Aadhar card/Election card"
+        ]
+    },
+    "Non-Ancestral Class Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form",
+            "Copy of school leaving certificate",
+            "Copy of school leaving certificate of one of the applicant's father/uncles",
+            "Copy of ration card",
+            "Copy of Aadhar card/Election card"
+        ]
+    },
+    "Economically Weaker Section Certificate": {
+        "Processing Time": "1 Day",
+        "Required Supporting Documents": [
+            "Prescribed application form",
+            "Copy of school leaving certificate",
+            "Copy of school leaving certificate of one of the applicant's father/uncles",
+            "Copy of ration card",
+            "Copy of Aadhar/Election card",
+            "Income statement from competent authority",
+            "Affidavit",
+            "7/12/8A (If no land, talati's document stating no land)"
+        ]
+    }
+}
