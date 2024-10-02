@@ -8,8 +8,8 @@ st.set_page_config('Jan Seva Kendra Patdi', layout="wide", page_icon="assets/ima
 
 hide_streamlit_style = """
             <style>
-            [data-testid="stToolbar"] {visibility: hidden !important;}
-            footer {visibility: hidden !important;}
+            [data-testid="stToolbar"] {visibility: hidden;}
+            footer {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)

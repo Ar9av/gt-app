@@ -5,8 +5,8 @@ from streamlit.runtime.scriptrunner import get_script_run_ctx
 
 hide_streamlit_style = """
             <style>
-            [data-testid="stToolbar"] {visibility: hidden !important;}
-            footer {visibility: hidden !important;}
+            [data-testid="stToolbar"] {visibility: hidden;}
+            footer {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
