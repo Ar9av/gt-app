@@ -4,6 +4,14 @@ import streamlit as st
 # Load service data from JSON file
 data = json.load(open('data/data.json'))
 
+hide_streamlit_style = """
+            <style>
+            [data-testid="stToolbar"] {visibility: hidden !important;}
+            footer {visibility: hidden !important;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 # Set page configuration
 st.set_page_config('Jan Seva Kendra Patdi', layout="wide", page_icon="assets/images.png")
 
@@ -44,3 +52,4 @@ for app, details in data.items():
         st.write(f"**{keys[1]}:**")
         for doc in details[keys[1]]:
             st.write(f"- {doc}")
+
